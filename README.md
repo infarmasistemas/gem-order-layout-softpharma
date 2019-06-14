@@ -1,42 +1,20 @@
+# gem-order-layout-softpharma
+Leitor do layout Softpharma.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gem/order/layout/softpharma`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Passos para instalar a gem:
+1. Clone o repositório em sua máquina:
 
-TODO: Delete this and the text above, and describe your gem
+`git clone https://github.com/infarmasistemas/gem-order-layout-softpharma.git`
 
-## Installation
+2. Navegue até o repositório.
+3. Dê um build no gemspec:
 
-Add this line to your application's Gemfile:
+`gem build gem-order-layout-softpharma.gemspec`
 
-```ruby
-gem 'gem-order-layout-softpharma'
-```
+4. Será gerado um arquivo `.gem`, instale esse arquivo:
 
-And then execute:
+`gem install gem-order-layout-softpharma-1.0.0.gem`
 
-    $ bundle
+E pronto. A gem estará instalada em sua máquina.
 
-Or install it yourself as:
-
-    $ gem install gem-order-layout-softpharma
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/gem-order-layout-softpharma. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the Gem::Order::Layout::Softpharma project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/gem-order-layout-softpharma/blob/master/CODE_OF_CONDUCT.md).
+Para verificar que a instalação ocorreu bem, inicie o IRB e execute `require 'gem-order-layout-softpharma'`.
